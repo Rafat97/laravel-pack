@@ -1,0 +1,24 @@
+{
+    "name": "rafat/test",
+    "description": "This is test laravel packege",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emdadul Haque",
+            "email": "rafathaque1997@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "rafat\\test\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "rafat\\test\\ServiceProvider"
+            ]
+        }
+    }
+}
